@@ -45,6 +45,17 @@ To fix these issues, the core game logic was refactored into logic_utils.py so t
 
 ![Winning Game Screenshot](game-win.png)
 
-## 🚀 Stretch Features
+## 🧪 Automated Tests
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+The game logic was verified using **pytest** to ensure the guessing behavior works correctly.
+
+The following cases were tested:
+
+- Winning guess
+- Guess too high
+- Guess too low
+- Correct hint direction for higher and lower guesses
+
+All tests passed successfully.
+
+![Pytest Results Screenshot](test-passed.png)
