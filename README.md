@@ -43,7 +43,7 @@ To fix these issues, the core game logic was refactored into logic_utils.py so t
 
 ## 📸 Demo
 
-[Winning game screenshot](game-win.png)
+[game-win.png](game-win.png)
 
 ## 🚀 Stretch Features
 
